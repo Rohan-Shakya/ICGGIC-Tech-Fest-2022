@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <link rel="icon" href="/google-log.png" />
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+
+    <table border="1">
+      <tr>
+        <th>Author</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Ram</td>
+        <td><a href="mailto:ram@gmail.com">ram@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td><a href="mailto:shyam@gmail.com">shyam@gmail.com</a></td>
+      </tr>
+    </table>
+
+    <!-- Form -->
+    <p>Enter your details for connecting with us.</p>
+    <form>
+      <!-- First name -->
+      <label for="first_name">First Name</label>
+      <input type="text" name="first_name" placeholder="Your First Name" />
+
+      <br />
+      <br />
+
+      <!-- Last name -->
+      <label for="last_name">Last Name</label>
+      <input type="text" name="last_name" placeholder="Your Last Name" />
+
+      <br /><br />
+      <!-- Email -->
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Your Email" />
+
+      <br />
+
+      <!-- Gender -->
+      <label for="gender">Gender</label><br />
+
+      <label for="gender">Male</label>
+      <input type="radio" name="gender" value="Male" />
+      <label for="gender">Female</label>
+      <input type="radio" name="gender" value="Female" />
+      <label for="other">Other</label>
+      <input type="radio" name="gender" value="Other" />
+
+      <br /><br />
+
+      <!-- Birthday -->
+      <label for="birthday">Birthday:</label>
+      <input type="date" name="birthday" />
+
+      <br /><br />
+
+      <!-- Message -->
+      <label for="message">Message</label><br />
+      <textarea name="message"></textarea>
+
+      <br /><br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+
+    <br />
+
+    <!-- Marquee -->
+    <footer>
+      <marquee direction="right">Copyright 2022</marquee>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Title</title>
+  </head>
+  <body>
+    <h1>DOM</h1>
+
+    <p id="para"></p>
+
+    <h2>List of Names</h2>
+    <ol id="list"></ol>
+
+    <script>
+      var paragraphTag = document.getElementById("para");
+      paragraphTag.innerText = "I am learning DOM";
+
+      var orderedList = document.getElementById("list");
+      var li = document.createElement("li");
+      li.innerText = "Ram";
+      orderedList.appendChild(li);
+
+      var li2 = document.createElement("li");
+      li2.innerText = "Shyam";
+      orderedList.appendChild(li2);
+
+      var li3 = document.createElement("li");
+      li3.innerText = "Gita";
+      orderedList.appendChild(li3);
+    </script>
+  </body>
+</html>
